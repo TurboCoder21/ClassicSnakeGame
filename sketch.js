@@ -5,6 +5,7 @@ let w;
 let h;
 
 function setup() {
+  alert('ARROW KEYS');
   createCanvas(400, 400);
   w = floor(width / rez);
   h = floor(height / rez);
